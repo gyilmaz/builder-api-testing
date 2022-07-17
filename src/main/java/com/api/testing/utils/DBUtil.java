@@ -18,7 +18,7 @@ public class DBUtil {
     private static ResultSet resultSet;
     private static ResultSetMetaData rsmd;
 
-    private static final Logger log = LogManager.getLogger(DBUtility.class);
+    private static final Logger log = LogManager.getLogger(DBUtil.class);
 
     public static void getDBConnection() {
         try {
